@@ -21,6 +21,14 @@ namespace ConsoleUI
             Console.WriteLine(person.FullName); // FirstName can be retrieved using only FullName
             Console.WriteLine(person.SSN);
 
+            AddressModel address = new AddressModel();
+            address.StreetAddress = "Barkstrasse 42";
+            address.City = "Barkcity";
+            address.State = "Barkstate";
+            address.ZipCode = 12345;
+
+            Console.WriteLine(address.FullAddress);
+
             Console.ReadLine();
         }
     }

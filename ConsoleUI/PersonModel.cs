@@ -77,6 +77,6 @@ namespace ConsoleUI
         public PersonModel()
         {
 
-        }
+        }       
     }
 }
